@@ -19,8 +19,12 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
-
+      <div class="company">{{ experience.company }} <br>
+        {% if experience.website %}
+      <i class="fas fa-globe-americas"></i>
+      <a href="https://{{ experience.website }}" target="_blank">{{ experience.website }}</a>
+        {% endif %}
+      </div>
     </div><!--//meta-->
 
     {% if experience.details %}
