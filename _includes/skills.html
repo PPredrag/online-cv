@@ -1,5 +1,92 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
+<style>
+  .skills {
+    background-color: white;
+    padding: 1px;
+  }
+
+  .skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .skill-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    background-color: #7bc2d3;
+    border: none;
+    color: white;
+    padding: 4px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 22%;
+  }
+
+  .skill-red {
+    background-color: #e04a4a;
+    border: none;
+    color: white;
+    padding: 4px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 22%;
+  }
+
+  .skill:hover {
+    background-color: #7bc2d3;
+  }
+
+  .red-collor{
+    color: #e04a4a;
+  }
+</style>
+<section class="skills skills-section section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills.title }}
+  </h2>
+  <div class="skill-buttons">
+    <button class="skill-red">PHP</button>
+    <button class="skill-red">Laravel</button>
+    <button class="skill">Symfony</button>
+    <button class="skill">MySQL</button>
+    <button class="skill">Redis</button>
+    <button class="skill">Doctrine(PHP)</button>
+    <button class="skill">Testing</button>
+    <button class="skill">Unit Testing</button>
+    <button class="skill">OOP</button>
+    <button class="skill">REST-ful</button>
+    <button class="skill">HTML5</button>
+    <button class="skill">CSS3</button>
+    <button class="skill">Bootstrap</button>
+    <button class="skill">JavaScript</button>
+    <button class="skill">jQuery</button>
+    <button class="skill">Docker</button>
+    <button class="skill">GIT</button>
+    <button class="skill">Agile</button>
+    <button class="skill">Scrum</button>
+    <button class="skill">Jira</button>
+  </div>
+</section>
+
+<!--
 <section class="skills-section section">
 
   <h2 class="section-title">
@@ -20,12 +107,12 @@
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>
 
-    </div><!--//item-->
+    </div>
     {% endfor %}
 
   </div>
 
-</section><!--//skills-section-->
+</section>//skills-section-->
 {% endif %}
