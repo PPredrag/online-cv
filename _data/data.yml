@@ -87,19 +87,6 @@ experiences:
         details: |
           Provides technical support to users, troubleshooting hardware and software issues, and resolving system errors promptly. Monitors system performance, conducts regular audits, and implements upgrades and patches as needed to enhance efficiency and security
 
-projects:
-    title: Projects
-    intro: >
-      In the course of my career, I have had the opportunity to work on a diverse range of projects spanning various industries and technologies. Each project presented unique challenges and opportunities for growth, allowing me to hone my skills and expand my expertise in software development.
-      Below are selected projects that highlight my experience and contributions as a developer. These projects showcase my ability to collaborate with cross-functional teams, solve complex problems, and deliver high-quality solutions that meet client requirements and exceed expectations.
-    assignments:
-      - title: Novus Financial Platform
-        link: "#hook"
-        tagline: "Developed Laravel-based platform for financial document processing. Utilized AWS services and MySQL for scalable and efficient data handling."
-
-      - title: XR-Server Gamification Platform
-        link: "#"
-        tagline: "Created Symfony-powered platform for application gamification. Integrated MySQL and PlayFab for enhanced user engagement."
 skills:
     title: Skills
 
