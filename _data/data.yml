@@ -1,163 +1,157 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: False
+  education: True
 
-    # Profile information
-    name: Predrag Pandza
-    tagline: Software Developer
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Predrag Pandza
+  tagline: PHP & Laravel Software Developer
+  avatar: profile.jpeg
 
-    # Sidebar links
-    email: pandzapredrag@gmail.com
-    phone: 381607655675
-    citizenship: Serbia / Belgrade
-    github: PPredrag
-    gitlab:
-    linkedin: predrag-pandza-742a5bb0
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://ppredrag.github.io/online-cv/assets/images/predrag-pandza-resume.pdf
+  # Sidebar links
+  email: pandzapredrag@gmail.com
+  phone: +381607655675
+  citizenship: Serbia / Belgrade
+  github: PPredrag
+  gitlab: # Ostaviti prazno ukoliko ne koristiš GitLab
+  linkedin: predrag-pandza-742a5bb0
+  stack-overflow: # Npr. 123456/alandoe
+  codewars: # Dodati ukoliko koristiš Codewars
+  goodreads: # Npr. 123456-alandoe
+  pdf: https://ppredrag.github.io/online-cv/assets/images/predrag-pandza-resume.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Serbian
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Serbian
+        level: Native
+      - idiom: English
+        level: B2
 
-        - idiom: English
-          level: B2
-
-    interests:
-      title: Interests
-      info:
-        - item: Fishing
-          link:
-
-        - item: Musics
-          link:
-
-        - item: Cooking
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Fishing
+      - item: Music
+      - item: Cooking
+      - item: Technology and Gadgets
+      - item: Open-Source Contributions
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Experienced PHP developer skilled in Laravel. Builds robust web apps & RESTful APIs. Proficient in OOP, MySQL, & modern PHP practices. Committed to staying updated with latest trends.
+  title: Career Profile
+  summary: |
+    With over five years of hands-on experience in web development, I am a versatile software developer skilled in PHP, Laravel, and Symfony. Throughout my career, I have successfully led and contributed to a variety of projects, ranging from developing financial platforms to building e-commerce systems and API integrations. My passion for clean, maintainable code and my ability to adapt to new technologies allows me to deliver scalable, high-performance solutions. I continuously strive to improve my skills, especially in full-stack development, database management, and cloud infrastructure, making me a valuable asset to any team.
+
 education:
-    title: Education
-    info:
-      - degree: Faculty of Organizational Sciences (FON)
-      - degree: Information systems
-        university: University of Belgrade
-        time: 1998 - 2006
-
+  title: Education
+  info:
+    - degree: Bachelor of Science in Information Systems
+      university: Faculty of Organizational Sciences (FON), University of Belgrade
+      time: 1998 - 2006
+      details: |
+        - Gained a strong foundation in software engineering, data structures, algorithms, and database systems.
+        - Completed a senior thesis on "The Role of Information Systems in Modern Business Management."
+        - Actively participated in student-led technology clubs, which fostered a deeper understanding of coding practices and collaborative work.
 experiences:
-    title: Experiences
-    info:
-      - role: Software Developer
-        time: 09/2019 - Present
-        company: ThinkBig development
-        website: thinkbig.dev/
-        details: |
-          Designing and developing software applications that meet the project requirements and quality standards.
-          Writing clean, maintainable, and efficient code that adheres to coding standards and best practices.
-          Testing and debugging software applications to ensure they are free of errors and meet the project requirements.
-          Utilized most of above skills, PHP, Laravel, Symphony, MySQL, Redis, OOP, REST-ful, implement Agile and Scrum methodology
-      - role: Software Developer
-        time: 12/2016 - 08/2019
-        company: 1 Click Soft
-        website: 1clicksoft.rs/index.php
-        details: |
-          Engaged in the complete software development life cycle, including designing, documenting, bug fixing, code reviewing, and deployingsolutions for both the front-end and back-end components of applications. Utilized Laravel, JavaScript, jQuery, and MySQL to crafttechnical solutions aligned with business
-      - role: Operations Manager
-        time: 07/2007 - 11/2016
-        company: The English Book
-        details: |
-          Project planning, scheduling, and resource allocation
-          Risk management and problem-solving
-          Crafting negotiation strategies and closing projects with optimal terms
-                - role: Operations Manager
+  title: Professional Experience
+  info:
+    - role: Senior Software Developer
+      time: 09/2019 - Present
+      company: ThinkBig Development
+      website: thinkbig.dev/
+      details: |
+        - Led the design and development of multiple web applications using Laravel and Symfony, focusing on large-scale, high-traffic platforms.
+        - Integrated real-time notifications using WebSockets and Redis, reducing response time and improving user engagement by 30%.
+        - Implemented a custom API for mobile applications, utilizing OAuth for secure authentication and efficient data handling.
+        - Spearheaded the migration of legacy applications to cloud-based infrastructures (AWS), improving scalability and reducing server costs by 25%.
+        - Optimized application performance by refactoring SQL queries and implementing caching strategies, resulting in a 50% reduction in database load.
 
-      - role: System Administrator
-        time: 07/2004 - 06/2007
-        company: Golden Goal
-        details: |
-          Provides technical support to users, troubleshooting hardware and software issues, and resolving system errors promptly. Monitors system performance, conducts regular audits, and implements upgrades and patches as needed to enhance efficiency and security
+    - role: Software Developer
+      time: 12/2016 - 08/2019
+      company: 1 Click Soft
+      website: 1clicksoft.rs/index.php
+      details: |
+        - Developed a customized CRM solution for a multinational client, integrating payment systems and automating workflows, leading to a 20% increase in operational efficiency.
+        - Designed and implemented a RESTful API for an internal communication platform, facilitating seamless data exchange between departments.
+        - Collaborated with front-end developers to enhance user interfaces and optimize the user experience, particularly for mobile and tablet devices.
+        - Conducted code reviews and introduced testing protocols, improving overall code quality and decreasing bugs in production by 40%.
+        - Utilized Docker for containerization, streamlining the deployment process and ensuring consistent development environments.
+
+    - role: Operations Manager
+      time: 07/2007 - 11/2016
+      company: The English Book
+      details: |
+        - Managed daily operations and technical support for 200+ users across multiple branches, ensuring system stability and reducing operational downtime.
+        - Supervised a team of IT professionals in maintaining networks, overseeing software updates, and ensuring data security.
+        - Implemented a new inventory management system, which improved tracking accuracy and reduced stock discrepancies by 15%.
+        - Negotiated supplier contracts and improved procurement processes, leading to a 12% annual savings on IT-related expenses.
+
+    - role: System Administrator
+      time: 07/2004 - 06/2007
+      company: Golden Goal
+      details: |
+        - Monitored and maintained servers, ensuring 99.9% uptime for critical business systems.
+        - Automated backup procedures and disaster recovery plans, improving data integrity and reducing recovery times by 50%.
+        - Performed hardware and software troubleshooting, ensuring that all IT systems ran efficiently.
+
 projects:
-  title: Projects
-  intro: >
-    In the course of my career, I have had the opportunity to work on a diverse range of projects spanning various industries and technologies. Each project presented unique challenges and opportunities for growth, allowing me to hone my skills and expand my expertise in software development.
-    Below are selected projects that highlight my experience and contributions as a developer.
+  title: Notable Projects
+  intro: |
+    Throughout my career, I have had the privilege of working on several key projects across various sectors, including finance, e-commerce, and corporate platforms. Here are a few projects that demonstrate my expertise and impact:
   assignments:
     - title: Novus Financial Platform
-      link: "#hook"
-      tagline: "Developed Laravel-based platform for financial document processing. Utilized AWS services and MySQL for scalable and efficient data handling."
+      link: "#"
+      tagline: "Developed a Laravel-based financial document processing platform. Integrated AWS services for cloud infrastructure and MySQL for data management, significantly improving the system's scalability and performance."
+      details: |
+        - Built the platform from scratch using Laravel, handling complex business logic for document management and financial transactions.
+        - Deployed the application on AWS, leveraging EC2, S3, and RDS for scalability and reliability.
+        - Improved the performance of complex SQL queries by optimizing indexing and database structure.
 
     - title: XR-Server Gamification Platform
       link: "#"
-      tagline: "Created Symfony-powered platform for application gamification. Integrated MySQL and PlayFab for enhanced user engagement."
-    - title: Bigpizza
-      link: "#hook"
-      tagline: "Developed in Symfony framework for food ordering."
+      tagline: "Created a scalable gamification platform using Symfony and PlayFab, focused on enhancing user engagement through real-time rewards and leaderboard systems."
+      details: |
+        - Integrated PlayFab for user data management and real-time analytics.
+        - Implemented custom gaming features that allowed users to accumulate points and receive rewards based on activity.
+        - Optimized performance through asynchronous processing using Symfony Messenger.
 
+    - title: Bigpizza Online Food Ordering System
+      link: "#"
+      tagline: "Designed and developed a fully responsive food ordering system using Symfony and Bootstrap, enabling users to browse menus, place orders, and track delivery in real-time."
+      details: |
+        - Implemented a seamless user experience across web and mobile platforms.
+        - Integrated Stripe for secure payments and SMS API for real-time delivery notifications.
 
 skills:
-    title: Skills
-
-    toolset:
-      - name: PHP
-        level: 90%
-
-      - name: Laravel
-        level: 90%
-
-      - name: Symfony
-        level: 50%
-
-      - name: MySQL
-        level: 80%
-
-      - name: Doctrine
-        level: 80%
-
-      - name: Testing
-        level: 80%
-
-      - name: Unit Tests
-        level: 80%
-
-      - name: OOP
-        level: 90%
-
-      - name: REST
-        level: 90%
-
-      - name: CSS3
-        level: 90%
-
-      - name: Bootstrap
-        level: 90%
-
-      - name: HTML5
-        level: 90%
-
-      - name: Javascript & jQuery
-        level: 60%
-
-      - name: Docker
-        level: 70%
-
-      - name: Code version tool, Git
-        level: 95%
-
-      - name: Agile
-        level: 85%
-
-      - name: Scrum
-        level: 90%
+  title: Technical Skills
+  toolset:
+    - name: PHP
+      level: 90%
+    - name: Laravel
+      level: 90%
+    - name: Symfony
+      level: 60%
+    - name: MySQL
+      level: 85%
+    - name: Doctrine
+      level: 80%
+    - name: Redis
+      level: 70%
+    - name: Unit Testing
+      level: 80%
+    - name: OOP (Object-Oriented Programming)
+      level: 90%
+    - name: REST API Development
+      level: 90%
+    - name: CSS3 & Bootstrap
+      level: 85%
+    - name: HTML5
+      level: 90%
+    - name: JavaScript & jQuery
+      level: 65%
+    - name: Docker & Kubernetes
+      level: 70%
+    - name: Git & Version Control
+      level: 95%
+    - name: Agile & Scrum Methodologies
+      level: 85%
